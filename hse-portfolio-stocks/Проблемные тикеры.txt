@@ -1,0 +1,17 @@
+Проблемные тикеры 
+
+75 Failed downloads:
+['TMK', 'CTXS', 'HRS', 'CERN', 'ATVI', 'MRO', 'CTL', 'RE', 'MON', 'CXO', 'CHK', 'ADS', 'ABC', 'DRE', 'FISV', 'PXD', 'BRK.B', 'RHT', 'KSU', 'NBL', 'PKI', 'MYL', 'DWDP', 'JEC', 'TIF', 'WRK', 'XEC', 'FB', 'DISCA', 'VIAB', 'PBCT', 'XL', 'BHGE', 'ALXN', 'ARNC', 'TSS', 'DISH', 'RTN', 'FBHS', 'BBT', 'DISCK', 'COG', 'BLL', 'SYMC', 'WLTW', 'NLSN', 'ANTM', 'HCP', 'XLNX', 'AGN', 'VAR', 'ETFC', 'CBS', 'UTX', 'LLL', 'CELG', 'GPS', 'FLIR', 'APC']: YFTzMissingError('possibly delisted; no timezone found')
+['HCN', 'BF.B', 'DPS', 'WYN', 'PCLN', 'CBG', 'LUK', 'GGP', 'SNI', 'KORS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2015-01-01 -> 2025-05-21)')
+['TWX', 'CSRA', 'ANDV', 'AET', 'SCG']: ValueError('Length mismatch: Expected axis has 2 elements, new values have 1 elements')
+['CRM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 65026 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+Saved (2612, 505) to data/raw/prices.parquet
+
+
+77 Failed downloads:
+['ADS', 'CBS', 'XL', 'CXO', 'AGN', 'BRK.B', 'XEC', 'FB', 'VAR', 'FISV', 'JEC', 'SYMC', 'ARNC', 'ETFC', 'PBCT', 'WRK', 'BHGE', 'TSS', 'VIAB', 'XLNX', 'CTL', 'LLL', 'WLTW', 'ALXN', 'TIF', 'DISH', 'HCP', 'PKI', 'NBL', 'DWDP', 'ATVI', 'DRE', 'MRO', 'UTX', 'GPS', 'ABC', 'DISCK', 'PXD', 'RHT', 'CHK', 'CERN', 'RE', 'BLL', 'FLIR', 'COG', 'MON', 'DISCA', 'BBT', 'FBHS', 'CELG', 'MYL', 'APC', 'TMK', 'RTN', 'NLSN', 'ANTM', 'CTXS', 'HRS', 'KSU']: YFTzMissingError('possibly delisted; no timezone found')
+['AET', 'SCG', 'ANDV', 'TWX', 'CSRA']: ValueError('Length mismatch: Expected axis has 2 elements, new values have 1 elements')
+['WYN', 'GGP', 'KORS', 'CBG', 'LUK', 'SNI', 'BF.B', 'PCLN', 'DPS', 'HCN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2015-01-01 -> 2025-05-22)')
+['KMB']: Timeout('Failed to perform, curl: (28) Connection timed out after 916269 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+['MAT']: Timeout('Failed to perform, curl: (28) Connection timed out after 916278 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+['NEE']: Timeout('Failed to perform, curl: (28) Operation timed out after 916876 milliseconds with 10 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
